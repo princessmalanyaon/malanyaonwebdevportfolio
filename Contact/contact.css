@@ -85,7 +85,11 @@ section{
       font-weight: bold;
       margin-top: 8%;
   }
-  
+
+ .columnform h2{
+    font-size: 2.3rem;
+  }
+
   input[type=text], input[type-email], select, textarea {
     width: 100%;
     padding: 12px 20px;
@@ -95,7 +99,16 @@ section{
     border-radius: 4px;
     box-sizing: border-box;
   }
-  
+label[for=name], label[for=email], label[for=message] {
+    font-size: 1.7rem;
+    color: var(--text-color);
+    margin-top: 4rem;
+  }
+
+  button[type=submit] {
+    font-size: 1.9rem;
+  }
+
   .Submitbtn{
     width: 100%;
     background-color:rgb(238, 135, 229);
